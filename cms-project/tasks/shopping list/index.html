@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="all">
+<div class="main">
+    <h1 class="element">SHOPPING LIST</h1>
+
+    <ul id="mainList" class="list">
+        <li>
+            <input type="checkbox" class="custom-checkbox">
+            <a class="links" href="https://www.mohito.com/mo/en/all/dresses">dress</a>
+        </li>
+        <li>
+            <input type="checkbox" class="custom-checkbox">
+            <a class="links" href="https://www.mohito.com/mo/en/all/trousers">trousers</a>
+        </li>
+        <li>
+            <input type="checkbox" class="custom-checkbox">
+            <a class="links" href="https://www.mohito.com/mo/en/all/shirts">shirt</a>
+        </li>
+    </ul>
+</div>
+<form class="form">
+    <button type="button" class="buttons" onclick="openInput()">Add new item</button>
+
+    <label id="labelForInput" for="inp" style="display:none" class="inputBox">Enter new type of clothes:</label>
+    <input type="text" style="display: none" id="inp" class="inputBox">
+
+    <button id="addButton" class="buttons" type="button" style="display: none" onclick="addNewElement()">Add clothes</button>
+
+    <button id="deleteButton" class="buttons" type="button" style="display:none" onclick="deleteAll()">Uncheck all checkboxes</button>
+</form>
+<script src="script.js">
+</script>
+</div>
+</body>
+</html>

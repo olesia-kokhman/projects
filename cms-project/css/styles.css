@@ -1,0 +1,255 @@
+.header {
+    background-color: dimgrey;
+}
+
+.title {
+    margin: 0;
+    color: #ffffff;
+}
+
+.right-side {
+    top: 20px;
+    position: absolute;
+}
+
+.left-side {
+    top: 20px;
+    left: 1300px;
+    position: absolute;
+}
+
+/* dropdown section */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 1374px;
+}
+
+/* links on dropdown list */
+.dropdown-item,
+.links {
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropdown-list {
+    list-style-type: none;
+    padding: 0 25px;
+}
+
+/* dropdown list */
+.dropdown-content {
+    position: absolute;
+    width: 104px;
+    background-color: #ffffff;
+    display: none;
+    border: solid thin black;
+}
+
+/* after hovering on a link */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-name {
+    position: relative;
+    bottom: 6px;
+}
+
+.notification-dropdown {
+    display: inline-block;
+}
+
+.notification-item {
+    display: flex;
+    left: 1350px;
+}
+
+.notification-dropdown-content {
+    position: absolute;
+    width: 186px;
+    margin-top: 4px;
+    padding: 10px 0 10px 0;
+    background-color: #ffffff;
+    border: solid thin black;
+    display: none;
+}
+
+.notification-dropdown:hover .notification-dropdown-content {
+    display: block;
+    
+}
+.notification-dropdown:hover .notification-item {
+    animation: shake 0.5s;
+}
+
+.message-profile {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+}
+
+.message-photo {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mainNavigation {
+    text-align: left;
+    width: 200px;
+}
+
+.table-title {
+    margin: 10 0 0 0;
+    font-weight: 100;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+.table-context,
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+th, td {
+    width: 15%;
+  }
+
+/* for all checkboxes */
+.checkbox-item {
+    margin: 0 auto;
+}
+
+.add-button {
+    position: relative;
+    left: 1160px;
+    margin-bottom: 10px;
+}
+
+.form {
+    border: thin solid black;
+    width: 500px;
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.headerForm,
+.middleForm {
+    border-bottom: thin solid black;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.middleForm {
+    
+    text-align: center;
+}
+
+.footerForm {
+    padding-top: 20px;
+}
+
+.cancel-container {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.group-context,
+.gender-context {
+    display: inline-block;
+}
+
+label,
+p {
+    display: inline-block;
+    clear: left;
+    width: 100px;
+    text-align: left;
+}
+
+.delete-message {
+    width: 100%;
+    text-align: center;
+}
+
+.submit-button {
+    margin-bottom: 10px;
+}
+
+.firstName {
+    margin-bottom: 18px;
+}
+
+input,
+select {
+    display: inline-block;
+}
+
+.form-item {
+    width: 200px;
+}
+
+select {
+    width: 208px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+}

@@ -1,0 +1,29 @@
+.image-content {
+    position: absolute;
+    margin: 250px 0 250px 0;
+}
+
+.image-item {
+    width: 200px;
+    height: 200px;
+    animation: move 2s
+}
+@keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(650px);
+    }
+    50% {
+      transform: translateX(650px) rotate(360deg);
+    }
+    75% {
+        transform: translateX(650px);
+    }
+    100% {
+      transform: translateX(1300px);
+    }
+  }
+
+

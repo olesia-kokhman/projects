@@ -1,0 +1,51 @@
+.main {
+    margin: auto;
+    border: medium solid lightblue;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+h1 {
+    text-align: center;
+}
+.links {
+    text-decoration : none;
+    color: indigo;
+}
+.list {
+    list-style-type: none;
+    margin-left: 40px;
+
+}
+.form {
+    border: medium solid lightblue;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.all {
+    border: medium solid lightblue;
+    padding: 10px;
+    width: 340px;
+    margin: auto;
+}
+.buttons {
+    margin: auto;
+    text-align: center;
+    border: none;
+    width: 270px;
+    padding: 10px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+.inputBox {
+   text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.buttons:hover {
+    background-color: blueviolet;
+    transition-duration: 0.1s;
+}
