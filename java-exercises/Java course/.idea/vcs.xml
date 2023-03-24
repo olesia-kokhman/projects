@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Module 1/meet-a-stranger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 1/meet-autocode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 2/electronic-watch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/average" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/go-dutch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/max-in-sequence" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/meet-an-agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/meet-strangers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/pizza-split" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/quadratic-equation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 3/snail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/cycle-swap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/local-maxima-remove" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/max" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/multiply-matrices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/spiral" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/sum-of-even-numbers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/sum-of-previous" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 4/transpose-matrix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 5/decrementing-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 5/line-intersection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 5/segments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 5/triangle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 6/decrementing-carousel-with-limit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 6/gradually-decreasing-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 6/halving-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 6/sprint-planning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 7/figures" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 7/figures-extra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Module 7/task-carousel" vcs="Git" />
+  </component>
+</project>
